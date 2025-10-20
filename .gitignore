@@ -1,0 +1,20 @@
+# .gitignore
+
+# Java/Maven Backend Files
+/target/
+*.jar
+*.war
+.mvn/wrapper/maven-wrapper.jar
+
+# ---------------------------
+# Node/React Frontend Files
+# ---------------------------
+
+# Ignore all dependencies inside the frontend web-ui folder
+/web-ui/node_modules/
+
+# Ignore frontend build output and cache
+/web-ui/dist/
+/web-ui/.vite/
+npm-debug.log
+.DS_Store
